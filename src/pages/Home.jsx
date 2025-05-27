@@ -25,14 +25,12 @@ export const Home=()=>{
     <SkillSection/>
     <ProjectSection/>
     <ContactSection/>
-    <Footer/>
 </main>
 
 
 
 {/*footer*/}
-
-            
+<Footer/>  
         </div>
     )
 }
