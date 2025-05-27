@@ -114,7 +114,7 @@ export const ContactSection=()=>{
             />
         </div>
 
-        <button type="submit" disabled={isSubmiting} className={cn("cosmic-button w-full flex items-center justify-center gap-2 ")} >
+        <button type="submit" disabled={isSubmiting} className={cn("cosmic-button w-full flex items-center justify-center gap-2 px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium  transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95 ")} >
            { 
            isSubmiting? "Sending..." :<Send size={20}/> 
             }
